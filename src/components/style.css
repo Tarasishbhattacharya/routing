@@ -1,0 +1,31 @@
+.nav{
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+ align-items: center;
+ background-color: black;
+ height: 80px;
+ color:white;
+}
+.nav >li{
+    color:whitesmoke
+}
+.prod-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+}
+.product img{
+    width:140px;
+    height:140px;
+
+}
+.product{
+    width:45%;
+    padding:10px;
+    border:1px solid black;
+    margin:10px
+}
+.add{
+    margin-bottom: 10px;
+}
